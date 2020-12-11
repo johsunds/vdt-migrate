@@ -1,0 +1,23 @@
+{
+  "name": "vdt-migrate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+		"@vidispine/vdt-api": "^0.9.0",
+		"migrate": "johsunds/node-migrate#main"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johsunds/vdt-migrate.git"
+  },
+  "author": "Johan Sundström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johsunds/vdt-migrate/issues"
+  },
+  "homepage": "https://github.com/johsunds/vdt-migrate#readme"
+}
