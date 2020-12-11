@@ -9,6 +9,14 @@ const VidispineStore = require('./store');
 
 module.exports.utils = require('./utils');
 
+module.exports.login = ({
+  baseURL = isRequired(),
+  username = isRequired(),
+  password = isRequired(),
+}) => {
+  vdtApi.utils.login({baseURL, username, password});
+};
+
 module.exports.create = async ({
   name = isRequired(),
   migrationsDirectory = isRequired(),
