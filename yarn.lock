@@ -108,7 +108,7 @@ inherits@^2.0.3:
 
 migrate@johsunds/node-migrate#main:
   version "1.7.0"
-  resolved "https://codeload.github.com/johsunds/node-migrate/tar.gz/c8102ad607bd169d2e7cb2fdc71f7abe173c3110"
+  resolved "https://codeload.github.com/johsunds/node-migrate/tar.gz/a3fc3dce9dfe64f1a846bf0a4f9faec42126b0e5"
   dependencies:
     chalk "^2.4.1"
     commander "^2.19.0"
