@@ -106,9 +106,9 @@ inherits@^2.0.3:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
-migrate@johsunds/node-migrate#1.0.0:
+migrate@johsunds/node-migrate#1.0.1:
   version "1.7.0"
-  resolved "https://codeload.github.com/johsunds/node-migrate/tar.gz/3c27a791e22d83d986b2493dd8d71ac808e9a7c1"
+  resolved "https://codeload.github.com/johsunds/node-migrate/tar.gz/49b0054de0a9295857aa8b8eea9a3cdeb2643913"
   dependencies:
     chalk "^2.4.1"
     commander "^2.19.0"
