@@ -36,6 +36,7 @@ module.exports.migrate = async ({
   context = {},
   force = false,
   count = 1,
+  dryRun = false,
   onMigration = () => {},
   onWarning = () => {},
 }) => new Promise((resolve, reject) => {
@@ -53,7 +54,7 @@ module.exports.migrate = async ({
     set.on('migration', onMigration);
     set.migrate(direction, migration, (err) => {
       if (err) { reject(err); } else { resolve(); }
-    }, context, { count, force });
+    }, context, { count, force, dryRun });
   });
 });
 
